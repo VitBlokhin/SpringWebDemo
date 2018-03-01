@@ -1,0 +1,78 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : org.vitblokhin.spring.webdemo : SpringWebDemo-1.0-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/build/libs/exploded/SpringWebDemo-1.0-SNAPSHOT.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/SpringWebDemo-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="SpringWebDemo_main/web/Web Gradle : SpringWebDemo-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SpringWebDemo_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/out/production/resources" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jdbc:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-orm:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-jpa:2.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.hibernate:hibernate-core:5.2.12.Final" />
+          <element id="library" level="project" name="Gradle: org.hibernate:hibernate-jpamodelgen:5.2.12.Final" />
+          <element id="library" level="project" name="Gradle: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.2.Final" />
+          <element id="library" level="project" name="Gradle: org.hibernate.validator:hibernate-validator:6.0.6.Final" />
+          <element id="library" level="project" name="Gradle: com.h2database:h2:1.4.195" />
+          <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:4.0.0" />
+          <element id="library" level="project" name="Gradle: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Gradle: com.google.guava:guava:23.0" />
+          <element id="library" level="project" name="Gradle: joda-time:joda-time:2.9.9" />
+          <element id="library" level="project" name="Gradle: joda-time:joda-time-jsptags:1.1.1" />
+          <element id="library" level="project" name="Gradle: org.jadira.usertype:usertype.core:6.0.1.GA" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-tx:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-commons:2.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.aspectj:aspectjrt:1.8.12" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.jboss.logging:jboss-logging:3.3.0.Final" />
+          <element id="library" level="project" name="Gradle: org.javassist:javassist:3.20.0-GA" />
+          <element id="library" level="project" name="Gradle: antlr:antlr:2.7.7" />
+          <element id="library" level="project" name="Gradle: org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.0.1.Final" />
+          <element id="library" level="project" name="Gradle: org.jboss:jandex:2.0.3.Final" />
+          <element id="library" level="project" name="Gradle: dom4j:dom4j:1.6.1" />
+          <element id="library" level="project" name="Gradle: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" />
+          <element id="library" level="project" name="Gradle: com.google.code.findbugs:jsr305:1.3.9" />
+          <element id="library" level="project" name="Gradle: com.google.errorprone:error_prone_annotations:2.0.18" />
+          <element id="library" level="project" name="Gradle: com.google.j2objc:j2objc-annotations:1.1" />
+          <element id="library" level="project" name="Gradle: org.codehaus.mojo:animal-sniffer-annotations:1.14" />
+          <element id="library" level="project" name="Gradle: org.hibernate:hibernate-entitymanager:5.2.1.Final" />
+          <element id="library" level="project" name="Gradle: org.jadira.usertype:usertype.spi:6.0.1.GA" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1" />
+          <element id="library" level="project" name="Gradle: com.fasterxml:classmate:1.3.1" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/2.0.1.Final/cb855558e6271b1b32e716d24cb85c7f583ce09e/validation-api-2.0.1.Final.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-core/3.0.8/1f71d0545540ad4bd7b4d883b2ff763cffde237/tiles-core-3.0.8.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-jsp/3.0.8/7465a65e4b3821a9785995bcb5ce2f74098ab023/tiles-jsp-3.0.8.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-api/3.0.8/a3c4f741b1cf5ce578b85155cf640a932f617167/tiles-api-3.0.8.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-digester/commons-digester/2.0/3dbd8a76683cd563583a2c78c356ad8b8acf38bf/commons-digester-2.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.6/ab1648fe1dd6f1e5c2ec6d12f394672bb8c1036a/jcl-over-slf4j-1.7.6.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-servlet/3.0.8/56c7ed54e70912ef6628dca464a54a5ecac587b3/tiles-servlet-3.0.8.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-template/3.0.8/70b396cce5516f7069d15398f07bb32c9020a5df/tiles-template-3.0.8.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-jsp/1.0.7/6a9bde44749334e9ef85d0bdf854ff20641c113/tiles-request-jsp-1.0.7.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-api/1.0.7/c649a9be6df263c888a2195447cd602d530cc233/tiles-request-api-1.0.7.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/c651d5103c649c12b20d53731643e5fffceb536/commons-beanutils-1.8.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-servlet/1.0.7/e9b9e3cda2a489b3292ed3a15a558b2b57ad0940/tiles-request-servlet-1.0.7.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-autotag-core-runtime/1.2/100bd3cae1a5debf9afb4ef5c8b36c508d06326/tiles-autotag-core-runtime-1.2.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
