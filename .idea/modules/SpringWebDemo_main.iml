@@ -47,6 +47,8 @@
     <orderEntry type="library" name="Gradle: javax.servlet:jstl:1.2" level="project" />
     <orderEntry type="library" name="Gradle: javax.validation:validation-api:2.0.1.Final" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.3" level="project" />
+    <orderEntry type="library" name="Gradle: commons-io:commons-io:2.6" level="project" />
+    <orderEntry type="library" name="Gradle: javax:javaee-web-api:8.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava:23.0" level="project" />
     <orderEntry type="library" name="Gradle: joda-time:joda-time:2.9.9" level="project" />
     <orderEntry type="library" name="Gradle: joda-time:joda-time-jsptags:1.1.1" level="project" />
