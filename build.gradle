@@ -16,6 +16,10 @@ dependencies {
     compile 'org.springframework:spring-orm:5.0.2.RELEASE'
     compile 'org.springframework.data:spring-data-jpa:2.0.2.RELEASE'
     compile 'org.springframework:spring-webmvc:5.0.2.RELEASE'
+    compile 'org.springframework.security:spring-security-core:5.0.2.RELEASE'
+    compile 'org.springframework.security:spring-security-web:5.0.2.RELEASE'
+    compile 'org.springframework.security:spring-security-config:5.0.2.RELEASE'
+    compile 'org.springframework.security:spring-security-taglibs:5.0.2.RELEASE'
 
     compile 'org.hibernate:hibernate-core:5.2.12.Final'
     compile 'org.hibernate:hibernate-jpamodelgen:5.2.12.Final'

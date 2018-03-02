@@ -19,7 +19,7 @@ public class UrlUtil {
         }
         try {
             pathSegment = UriUtils.encodePathSegment(pathSegment, enc);
-        } catch (UnsupportedEncodingException uee) {
+        } catch (Exception uee) {
             logger.error(uee.getMessage());
         }
         return pathSegment;

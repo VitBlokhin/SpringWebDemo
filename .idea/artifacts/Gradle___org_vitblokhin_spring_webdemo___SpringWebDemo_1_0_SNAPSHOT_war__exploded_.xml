@@ -17,8 +17,6 @@
           <element id="dir-copy" path="$PROJECT_DIR$/out/production/resources" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Gradle: org.springframework:spring-context:5.0.2.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-jdbc:5.0.2.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-orm:5.0.2.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-jpa:2.0.2.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:5.0.2.RELEASE" />
@@ -31,21 +29,17 @@
           <element id="library" level="project" name="Gradle: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Gradle: javax.validation:validation-api:2.0.1.Final" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.3" />
+          <element id="library" level="project" name="Gradle: commons-io:commons-io:2.6" />
+          <element id="library" level="project" name="Gradle: javax:javaee-web-api:8.0" />
           <element id="library" level="project" name="Gradle: com.google.guava:guava:23.0" />
           <element id="library" level="project" name="Gradle: joda-time:joda-time:2.9.9" />
           <element id="library" level="project" name="Gradle: joda-time:joda-time-jsptags:1.1.1" />
           <element id="library" level="project" name="Gradle: org.jadira.usertype:usertype.core:6.0.1.GA" />
           <element id="library" level="project" name="Gradle: org.apache.tiles:tiles-core:3.0.8" />
           <element id="library" level="project" name="Gradle: org.apache.tiles:tiles-jsp:3.0.8" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:5.0.2.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:5.0.2.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-core:5.0.2.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:5.0.2.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-tx:5.0.2.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-commons:2.0.2.RELEASE" />
           <element id="library" level="project" name="Gradle: org.aspectj:aspectjrt:1.8.12" />
           <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.25" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-web:5.0.2.RELEASE" />
           <element id="library" level="project" name="Gradle: org.jboss.logging:jboss-logging:3.3.0.Final" />
           <element id="library" level="project" name="Gradle: org.javassist:javassist:3.20.0-GA" />
           <element id="library" level="project" name="Gradle: antlr:antlr:2.7.7" />
@@ -67,15 +61,26 @@
           <element id="library" level="project" name="Gradle: org.apache.tiles:tiles-servlet:3.0.8" />
           <element id="library" level="project" name="Gradle: org.apache.tiles:tiles-template:3.0.8" />
           <element id="library" level="project" name="Gradle: org.apache.tiles:tiles-request-jsp:1.0.7" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.0.2.RELEASE" />
           <element id="library" level="project" name="Gradle: org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1" />
           <element id="library" level="project" name="Gradle: org.apache.tiles:tiles-request-api:1.0.7" />
           <element id="library" level="project" name="Gradle: commons-beanutils:commons-beanutils:1.8.0" />
           <element id="library" level="project" name="Gradle: org.apache.tiles:tiles-request-servlet:1.0.7" />
           <element id="library" level="project" name="Gradle: org.apache.tiles:tiles-autotag-core-runtime:1.2" />
           <element id="library" level="project" name="Gradle: com.fasterxml:classmate:1.3.1" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.6/815893df5f31da2ece4040fe0a12fd44b577afaf/commons-io-2.6.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax/javaee-web-api/8.0/dd21587dd7515f8ddad285cf019a6acb18d6e3ba/javaee-web-api-8.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.0.2.RELEASE/b2ee0fbf71a045e271815d7715fa44aecbea0311/spring-security-core-5.0.2.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.0.2.RELEASE/dd00ed0cdf6ec0e2878196633464e641ee254e89/spring-security-web-5.0.2.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/5.0.2.RELEASE/6c1619f54395e80cb39b0ddd1aac32c0eb813ed1/spring-security-config-5.0.2.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-taglibs/5.0.2.RELEASE/dcc68a3de4d3f1ab5c7c56818f4f43f3df29ac10/spring-security-taglibs-5.0.2.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-acl/5.0.2.RELEASE/984a58dc3c6a1a3796a472c8ca8bedb5880e7be0/spring-security-acl-5.0.2.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.0.4.RELEASE/f8e029e54c0267dadb6b9f713f3feb54ec4f3a0e/spring-aop-5.0.4.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.0.4.RELEASE/7a8c3d48d4c33621e64d1399721d8e067450fcbd/spring-beans-5.0.4.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.4.RELEASE/3e76d08c851113077642c5704f0f94d5ce58e905/spring-context-5.0.4.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.4.RELEASE/2221a957b5561a34f044350ba4e30ef5870254a3/spring-core-5.0.4.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.4.RELEASE/3053e2bad0a18571bdbb9596ce51f9d458f5934f/spring-jcl-5.0.4.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.0.4.RELEASE/4bda161f2e34c1486f2527a23eb47293567f473c/spring-expression-5.0.4.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.0.4.RELEASE/9565bbc67bf1a850a6505deaa5103931712a7b80/spring-web-5.0.4.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/5.0.4.RELEASE/6b5ac0db11d81d6319ebd0bb253b2f01713df3ab/spring-jdbc-5.0.4.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/5.0.4.RELEASE/7afc193c5d2b812ee6d2ccaf6fcc81fb83bfb4a7/spring-tx-5.0.4.RELEASE.jar" />
         </element>
       </element>
     </root>
