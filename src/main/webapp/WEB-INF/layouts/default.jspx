@@ -12,7 +12,21 @@
         <meta http-equiv="X-UA-Compatible" content="IE=8" />
         <spring:theme code="styleSheet" var="app_css" />
         <spring:url value="/${app_css}" var="app_css_url" />
+
+        <!-- jQuery & jQuery UI -->
+        <spring:url value="/resources/scripts/jquery-3.3.1.js" var="jquery_url" />
+        <spring:url value="/resources/scripts/jquery-ui.min.js" var="jquery_ui_url" />
+        <spring:url value="/resources/styles/custom-theme/jquery-ui.css" var="jquery_ui_css" />
+        <spring:url value="/resources/styles/custom-theme/jquery-ui.structure.css" var="jquery_ui_structure_css" />
+        <spring:url value="/resources/styles/custom-theme/jquery-ui.theme.css" var="jquery_ui_theme_css" />
+
         <link rel="stylesheet" type="text/css" media="screen" href="${app_css_url}" />
+        <link rel="stylesheet" type="text/css" media="screen" href="${jquery_ui_css}" />
+        <link rel="stylesheet" type="text/css" media="screen" href="${jquery_ui_structure_css}" />
+        <link rel="stylesheet" type="text/css" media="screen" href="${jquery_ui_theme_css}" />
+
+        <script src="${jquery_url}" type="text/javascript"><jsp:text/></script>
+        <script src="${jquery_ui_url}" type="text/javascript"><jsp:text/></script>
             <!-- Извлечь пользовательскую локаль из контекста страницы
             (она была установлена распознавателем локалей Spring MVC) -->
         <c:set var="userLocale">
